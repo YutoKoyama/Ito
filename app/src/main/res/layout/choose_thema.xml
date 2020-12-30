@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_choose_thema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:text="@string/choose_thema"
+        android:textSize="20sp">
+    </TextView>
+
+    <Spinner
+        android:id="@+id/action_bar_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/border"
+        android:entries="@array/themaes_array"
+        android:gravity="center"
+        android:spinnerMode="dialog"></Spinner>
+
+    <TextView
+        android:id="@+id/txt_how_to_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="@string/how_to_answer"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp">
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_blue"
+        android:drawableRight="@drawable/ic_add_white_24dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/btn_add_player"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp">
+    </Button>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:id="@+id/layout_answerlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btn_answer"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_primary"
+        android:text="@string/btn_check_number"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"></Button>
+
+    <Button
+        android:id="@+id/btn_replay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_primary"
+        android:text="@string/btn_replay"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"></Button>
+
+</LinearLayout>

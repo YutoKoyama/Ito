@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Ito</string>
+    <string name="player_name_hint">名前を入れてください</string>
+    <string name="img_player">プレイヤーの画像</string>
+    <string name="player_list">Player List</string>
+    <string name="btn_add_player">Add Player</string>
+    <string name="edittext_hint">名前を入れてください</string>
+    <string name="btn_play">Play</string>
+    <string name="player_check">%sさんで間違いないですか？</string>
+    <string name="btn_number_check">数字を確認する</string>
+    <string name="caution_check">他のプレイヤーから画面が見えないようにしてください</string>
+    <string name="informe_number">あなたの数字はこれです</string>
+    <string name="remember">覚えた！</string>
+    <string name="pass_to_nextplayer">覚えたら次の人に回してください</string>
+    <string name="choose_thema">テーマを選んでください</string>
+    <string name="btn_check_number">答え合わせ</string>
+    <string name="btn_replay">もう一度遊ぶ</string>
+    <string name="how_to_answer">数字が小さい人から入力してください</string>
+    <string name="txt_answer_is_collect">正解！</string>
+    <string name="txt_answer_is_wrong">残念！不正解！</string>
+    <string name="eerror_massage">Androidのバージョンが古いため表示できませんでした。</string>
+</resources>

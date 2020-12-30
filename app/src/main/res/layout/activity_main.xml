@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/player_list"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:layout_margin="15dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/round_primary">
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_blue"
+        android:text="@string/btn_add_player"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:drawableRight="@drawable/ic_add_white_24dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+    </Button>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="350dp">
+
+            <LinearLayout
+                android:id="@+id/layout_list"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </LinearLayout>
+
+        </ScrollView>
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_primary"
+        android:text="@string/btn_play"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+    </Button>
+
+
+</LinearLayout>

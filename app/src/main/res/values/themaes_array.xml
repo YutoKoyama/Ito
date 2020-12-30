@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="themaes_array">
+        <item>便利なもの</item>
+        <item>子供に人気なもの</item>
+        <item>テンションが上がること・もの</item>
+        <item>カバンに入っていたら嬉しいもの</item>
+        <item>おにぎりの具の人気</item>
+        <item>パンの種類の人気</item>
+        <item>かっこいいもの</item>
+        <item>かわいいもの</item>
+        <item>職業の人気</item>
+        <item>アニメキャラクターの人気</item>
+        <item>ゲームの人気</item>
+    </string-array>
+</resources>

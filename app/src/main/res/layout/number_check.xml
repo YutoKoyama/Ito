@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/informe_number"
+        android:textSize="20sp"
+        android:layout_marginTop="100dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="100sp"
+        android:layout_marginTop="50dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/pass_to_nextplayer"
+        android:textSize="20sp"></TextView>
+
+
+    <Button
+        android:id="@+id/btn_remember"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginHorizontal="15dp"
+        android:background="@drawable/round_primary"
+        android:text="@string/remember"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"></Button>
+
+</LinearLayout>

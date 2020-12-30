@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_person"
+        android:layout_marginTop="5dp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_person_blue_24dp">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/edit_player_name"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/round_grey"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:hint="@string/edittext_hint">
+    </EditText>
+
+</LinearLayout>
